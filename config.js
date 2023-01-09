@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: ''Alvaro'',
+	name: 'Alvaro',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -20,7 +20,7 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to Sleep ',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -32,11 +32,11 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '40.585410',
-	defaultLongitude: '-3.986020',
+	defaultLatitude: '37.775',
+	defaultLongitude: '-122.419',
 
 	// Autochange
-	autoChangeTheme: false,
+	autoChangeTheme: true,
 
 	// Autochange by OS
 	changeThemeByOS: true,
@@ -157,24 +157,24 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'download',
+			icon: 'coffee',
 			id: '2',
 			links: [
 				{
-					name: 'General',
-					link: 'http://rarbgprx.org/index80.php',
+					name: 'Linkedin',
+					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Anime',
-					link: 'https://nyaa.si/',
+					name: 'Dribbble',
+					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trackers',
-					link: 'https://newtrackon.com/list',
+					name: 'Trello',
+					link: 'https://www.trello.com',
 				},
 				{
-					name: 'Megathread',
-					link: 'https://www.reddit.com/r/Piracy/wiki/megathread/#wiki_megathread',
+					name: 'Slack',
+					link: 'https://www.slack.com',
 				},
 			],
 		},
