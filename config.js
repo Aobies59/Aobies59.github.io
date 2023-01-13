@@ -13,7 +13,7 @@ const CONFIG = {
 	// General
 	name: 'Álvaro',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'e5bbf412486507276c532d613f9d94f0', // Write here your API Key
@@ -79,7 +79,7 @@ const CONFIG = {
 			id: '5',
 			name: 'Twitter',
 			icon: 'twitter',
-			link: 'https://reddit.com',
+			link: 'https://twitter.com/home',
 		},
 		{
 			id: '6',
@@ -183,46 +183,46 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'message-circle',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'Youtube',
+					link: 'https://www.youtube.com',
+				},
+				{
+					name: 'Twitter',
+					link: 'https://twitter.com/home',
 				},
 				{
 					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					link: 'https://www.reddit.com/',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Gmail',
+					link: 'https://mail.google.com/mail/u/0/#inbox',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'piggy-bank',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Amazon',
+					link: 'https://www.amazon.es/',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Prolific',
+					link: 'https://app.prolific.co/studies',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Caixabank Now',
+					link: 'https://loc9.caixabank.es/GPeticiones?PN=LGN&PE=8&CANAL=I&DEMO=0&FLAG_BORSA=0&IDIOMA=02&REF_STC=tPSHwXdAe_KL3tonefu7OmXNd9RVpV77fDiDdRQcAl8aMgWAjyQQaQ',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Aliexpress',
+					link: 'https://es.aliexpress.com/?gatewayAdapt=glo2esp',
 				},
 			],
 		},
