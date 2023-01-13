@@ -135,54 +135,6 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'graduation-cap',
-			id: '1',
-			links: [
-				{
-					name: 'Aulaglobal',
-					link: 'https://login.uc3m.es/index.php/CAS/login?service=https%3A%2F%2Faulaglobal.uc3m.es%2Flogin%2Findex.php',
-				},
-				{
-					name: 'Drive UNI',
-					link: 'https://drive.google.com/drive/u/1/my-drive',
-				},
-				{
-					name: 'Docs',
-					link: 'https://docs.google.com/document/u/1/?hl=es',
-				},
-				{
-					name: 'Music',
-					link: 'https://youtu.be/9wlpIW-JIec',
-				},
-			],
-		},
-		{
-			icon: 'download',
-			id: '2',
-			links: [
-				{
-					name: 'General',
-					link: 'http://rarbgprx.org/index80.php',
-				},
-				{
-					name: 'Anime',
-					link: 'https://nyaa.si/',
-				},
-				{
-					name: 'Trackers',
-					link: 'https://newtrackon.com/list',
-				},
-				{
-					name: 'Megathread',
-					link: 'https://www.reddit.com/r/Piracy/wiki/megathread/#wiki_megathread',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
 			icon: 'message-circle',
 			id: '1',
 			links: [
@@ -223,6 +175,54 @@ const CONFIG = {
 				{
 					name: 'Aliexpress',
 					link: 'https://es.aliexpress.com/?gatewayAdapt=glo2esp',
+				},
+			],
+		}
+	],
+
+	// Second Links Container
+	secondListsContainer: [
+		{
+			icon: 'graduation-cap',
+			id: '1',
+			links: [
+				{
+					name: 'Aulaglobal',
+					link: 'https://login.uc3m.es/index.php/CAS/login?service=https%3A%2F%2Faulaglobal.uc3m.es%2Flogin%2Findex.php',
+				},
+				{
+					name: 'Drive UNI',
+					link: 'https://drive.google.com/drive/u/1/my-drive',
+				},
+				{
+					name: 'Docs',
+					link: 'https://docs.google.com/document/u/1/?hl=es',
+				},
+				{
+					name: 'Music',
+					link: 'https://youtu.be/9wlpIW-JIec',
+				},
+			],
+		},
+		{
+			icon: 'download',
+			id: '2',
+			links: [
+				{
+					name: 'General',
+					link: 'http://rarbgprx.org/index80.php',
+				},
+				{
+					name: 'Anime',
+					link: 'https://nyaa.si/',
+				},
+				{
+					name: 'Trackers',
+					link: 'https://newtrackon.com/list',
+				},
+				{
+					name: 'Megathread',
+					link: 'https://www.reddit.com/r/Piracy/wiki/megathread/#wiki_megathread',
 				},
 			],
 		},
