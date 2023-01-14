@@ -169,8 +169,8 @@ const CONFIG = {
 					link: 'https://app.prolific.co/studies',
 				},
 				{
-					name: 'Caixabank Now',
-					link: 'https://loc9.caixabank.es/GPeticiones?PN=LGN&PE=8&CANAL=I&DEMO=0&FLAG_BORSA=0&IDIOMA=02&REF_STC=tPSHwXdAe_KL3tonefu7OmXNd9RVpV77fDiDdRQcAl8aMgWAjyQQaQ',
+					name: 'Wallapop',
+					link: 'https://es.wallapop.com/',
 				},
 				{
 					name: 'Aliexpress',
